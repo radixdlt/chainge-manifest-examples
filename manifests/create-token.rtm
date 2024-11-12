@@ -1,5 +1,5 @@
 CALL_METHOD
-    Address("component_tdx_2_1cptxxxxxxxxxfaucetxxxxxxxxx000527798379xxxxxxxxxyulkzl")
+    Address("component_rdx1cptxxxxxxxxxfaucetxxxxxxxxx000527798379xxxxxxxxxfaucet")
     "lock_fee"
     Decimal("5000")
 ;
@@ -9,7 +9,7 @@ CREATE_FUNGIBLE_RESOURCE
             Enum<0u8>(
                 Enum<0u8>(
                     Enum<0u8>(
-                        NonFungibleGlobalId("resource_tdx_2_1nfxxxxxxxxxxsecpsgxxxxxxxxx004638826440xxxxxxxxxcdcdpa:[e67e5f3f3e9864bce6faf5777aec2ba5b4aefb6bcb11b5bfdbfc8dfc5a]")
+                        NonFungibleGlobalId("resource_rdx1nfxxxxxxxxxxsecpsgxxxxxxxxx004638826440xxxxxxxxxsecpsg:[e67e5f3f3e9864bce6faf5777aec2ba5b4aefb6bcb11b5bfdbfc8dfc5a]")
                     )
                 )
             )
@@ -25,7 +25,7 @@ CREATE_FUNGIBLE_RESOURCE
                         Enum<0u8>(
                             Enum<0u8>(
                                 Enum<0u8>(
-                                    NonFungibleGlobalId("resource_tdx_2_1nfxxxxxxxxxxsecpsgxxxxxxxxx004638826440xxxxxxxxxcdcdpa:[e67e5f3f3e9864bce6faf5777aec2ba5b4aefb6bcb11b5bfdbfc8dfc5a]")
+                                    NonFungibleGlobalId("resource_rdx1nfxxxxxxxxxxsecpsgxxxxxxxxx004638826440xxxxxxxxxsecpsg:[e67e5f3f3e9864bce6faf5777aec2ba5b4aefb6bcb11b5bfdbfc8dfc5a]")
                                 )
                             )
                         )
@@ -36,7 +36,7 @@ CREATE_FUNGIBLE_RESOURCE
                         Enum<0u8>(
                             Enum<0u8>(
                                 Enum<0u8>(
-                                    NonFungibleGlobalId("resource_tdx_2_1nfxxxxxxxxxxsecpsgxxxxxxxxx004638826440xxxxxxxxxcdcdpa:[e67e5f3f3e9864bce6faf5777aec2ba5b4aefb6bcb11b5bfdbfc8dfc5a]")
+                                    NonFungibleGlobalId("resource_rdx1nfxxxxxxxxxxsecpsgxxxxxxxxx004638826440xxxxxxxxxsecpsg:[e67e5f3f3e9864bce6faf5777aec2ba5b4aefb6bcb11b5bfdbfc8dfc5a]")
                                 )
                             )
                         )

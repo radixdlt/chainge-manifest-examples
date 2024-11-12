@@ -2,7 +2,7 @@ use radix_transactions::manifest::decompile;
 use scrypto_test::prelude::*;
 
 pub fn print_manifest(manifest: &TransactionManifestV1) {
-    let manifest = decompile(&manifest.instructions, &NetworkDefinition::stokenet()).unwrap();
+    let manifest = decompile(&manifest.instructions, &NetworkDefinition::mainnet()).unwrap();
     println!("{manifest}");
 }
 
