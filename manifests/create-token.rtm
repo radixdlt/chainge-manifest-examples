@@ -44,7 +44,32 @@ CREATE_FUNGIBLE_RESOURCE
                 )
             )
         ),
-        Enum<0u8>(),
+        Enum<1u8>(
+            Tuple(
+                Enum<1u8>(
+                    Enum<2u8>(
+                        Enum<0u8>(
+                            Enum<0u8>(
+                                Enum<0u8>(
+                                    NonFungibleGlobalId("resource_rdx1nfxxxxxxxxxxsecpsgxxxxxxxxx004638826440xxxxxxxxxsecpsg:[e67e5f3f3e9864bce6faf5777aec2ba5b4aefb6bcb11b5bfdbfc8dfc5a]")
+                                )
+                            )
+                        )
+                    )
+                ),
+                Enum<1u8>(
+                    Enum<2u8>(
+                        Enum<0u8>(
+                            Enum<0u8>(
+                                Enum<0u8>(
+                                    NonFungibleGlobalId("resource_rdx1nfxxxxxxxxxxsecpsgxxxxxxxxx004638826440xxxxxxxxxsecpsg:[e67e5f3f3e9864bce6faf5777aec2ba5b4aefb6bcb11b5bfdbfc8dfc5a]")
+                                )
+                            )
+                        )
+                    )
+                )
+            )
+        ),
         Enum<0u8>(),
         Enum<0u8>(),
         Enum<0u8>(),

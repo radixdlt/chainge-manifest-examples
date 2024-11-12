@@ -51,15 +51,17 @@ pub fn main() {
             // behavior is defined.
             FungibleResourceRoles {
                 // This controls who can mint the resource. We will set it to be
-                // our public key defined above
+                // our public key defined above.
                 mint_roles: mint_roles! {
                     minter => access_rule.clone();
                     minter_updater => access_rule.clone();
                 },
-                // When we set this to `None` it means that we do not want to
-                // override the default. By default burning is not allowed by
-                // anyone.
-                burn_roles: None,
+                // This controls who can burn the resource. We will set it to be
+                // our public key defined above.
+                burn_roles: burn_roles! {
+                    burner => access_rule.clone();
+                    burner_updater => access_rule.clone();
+                },
                 // When we set this to `None` it means that we do not want to
                 // override the default. By default freezing the resource is not
                 // allowed by anyone.
