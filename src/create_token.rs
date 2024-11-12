@@ -79,7 +79,7 @@ pub fn main() {
             },
             metadata! {
                 init {
-                    "name" => "Wrapped USDC", locked;
+                    "name" => "Chainge Wrapped USDC", locked;
                     "symbol" => "c.USDC", locked;
                 }
             },
